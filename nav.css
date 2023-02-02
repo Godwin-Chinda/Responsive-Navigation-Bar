@@ -46,3 +46,24 @@ nav {
     font-size: 18px;
     text-transform: uppercase;
 }
+
+hr {
+    width: 90%;
+    border-top: 1px solid #585858;
+    margin: 1.5rem auto;
+}
+
+.title {
+    color: rgb(223, 233, 245);
+    text-align: center;
+    margin-top: 10px;
+}
+
+a {
+    color: white;
+    position: relative;
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
