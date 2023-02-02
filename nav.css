@@ -5,6 +5,7 @@
     padding: 0;
     border: none;
     outline: none;
+    text-decoration: none;
     list-style: none;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
@@ -16,8 +17,10 @@ body {
 
 nav {
     position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
     height: 100%;
     width: 90px;
-    background: rgb(59, 56, 56);
-    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+    overflow: ;
 }
