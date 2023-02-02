@@ -87,3 +87,28 @@ nav .nav-item {
     background-color: rgb(238, 238, 238);
     color: rgb(0, 0, 0);
 }
+
+.logout {
+    position: absolute;
+    bottom: 0;
+}
+
+.box {
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box a {
+    padding: 10px 0 10px 0;
+}
+
+.box a:hover {
+    background: rgb(88, 88, 88);
+    width: 100%;
+}
+
+nav:hover {
+    width: 300px;
+    transition: all 0.5s ease;
+}
