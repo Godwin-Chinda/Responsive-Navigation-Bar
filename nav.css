@@ -67,3 +67,23 @@ a {
     width: 300px;
     padding: 10px;
 }
+
+.fas, .fab {
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav .nav-item {
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+
+.menu-list:hover {
+    background-color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
+}
