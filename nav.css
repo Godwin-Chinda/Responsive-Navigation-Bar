@@ -49,7 +49,7 @@ nav {
 
 hr {
     width: 90%;
-    border-top: 1px solid #585858;
+    border-top: 1px solid rgb(88, 88, 88);
     margin: 1.5rem auto;
 }
 
@@ -77,7 +77,7 @@ a {
     text-align: center;
 }
 
-nav .nav-item {
+.nav-item {
     position: relative;
     top: 12px;
     margin-left: 10px;
@@ -86,11 +86,6 @@ nav .nav-item {
 .menu-list:hover {
     background-color: rgb(238, 238, 238);
     color: rgb(0, 0, 0);
-}
-
-.logout {
-    position: absolute;
-    bottom: 0;
 }
 
 .box {
@@ -111,4 +106,8 @@ nav .nav-item {
 nav:hover {
     width: 300px;
     transition: all 0.5s ease;
+
+}.logout {
+    position: absolute;
+    bottom: 0;
 }
